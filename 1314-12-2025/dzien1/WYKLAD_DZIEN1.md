@@ -1,5 +1,57 @@
 # Wykład: Programowanie proceduralne w Pythonie - Dzień 1
 
+## Agenda
+
+**Czas trwania:** 8:30 - 15:00 (6h 30min z przerwami)
+
+### Harmonogram
+
+| Czas | Temat | Aktywność |
+|------|-------|-----------|
+| **8:30 - 8:50** | Powitanie i setup | Przedstawienie, sprawdzenie środowiska |
+| **8:50 - 9:20** | Teoria: Programowanie proceduralne | Wykład + demo |
+| **9:20 - 10:30** | Wprowadzenie do projektu pizzerii | Code walkthrough + live coding |
+| **10:30 - 10:40** | **PRZERWA** | 10 minut |
+| **10:40 - 12:40** | Live coding: moduły menu i customers | SHOW → DO → REVIEW |
+| **12:40 - 13:10** | **PRZERWA** | 30 minut |
+| **13:10 - 15:00** | Live coding: moduł orders + integracja | Zadania praktyczne + podsumowanie |
+
+### Co zbudujemy dzisiaj?
+
+Aplikację do zarządzania pizzerią w stylu **proceduralnym**:
+- **Moduł menu** - zarządzanie pizzami
+- **Moduł customers** - zarządzanie klientami
+- **Moduł orders** - obsługa zamówień
+- **Integracja** - połączenie wszystkich modułów w działającą aplikację
+
+### Struktura projektu
+
+```
+pizzeria/
+├── __init__.py
+├── menu.py          # funkcje do zarządzania menu
+├── customers.py     # funkcje do zarządzania klientami
+├── orders.py        # funkcje do zarządzania zamówieniami
+└── main.py          # punkt wejścia aplikacji
+```
+
+### Czego się nauczysz?
+
+- Organizacja kodu w moduły i pakiety
+- Programowanie proceduralne - funkcje i dane globalne
+- Importowanie i używanie modułów
+- Struktura projektu w Pythonie
+- Praktyczne zastosowanie: aplikacja pizzerii
+
+### Przygotowanie
+
+Upewnij się, że masz:
+- Python 3.8+ zainstalowany
+- Edytor kodu (VS Code, PyCharm, itp.)
+- Działające środowisko (sprawdzimy na początku)
+
+---
+
 ## Część 1: Wprowadzenie do programowania proceduralnego
 
 ### Teoria
