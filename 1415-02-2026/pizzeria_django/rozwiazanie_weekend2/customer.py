@@ -51,7 +51,7 @@ class Customer:
 class VIPCustomer(Customer):
     """Klient VIP z rabatem i punktami lojalnościowymi."""
 
-    def __init__(self, name, phone, discount_percent=10):
+    def __init__(self, name, phone, discount_percent=float(10)):
         super().__init__(name, phone)
         if not isinstance(discount_percent, (int, float)):
             raise TypeError("Rabat musi być liczbą!")

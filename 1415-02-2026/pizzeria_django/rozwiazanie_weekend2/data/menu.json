@@ -14,5 +14,9 @@
   {
     "name": "Quattro Formaggi",
     "price": 35.0
+  },
+  {
+    "name": "Frutti",
+    "price": 23.0
   }
 ]

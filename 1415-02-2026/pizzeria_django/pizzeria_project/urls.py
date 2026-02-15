@@ -11,5 +11,6 @@ urlpatterns = [
      path('hello/', views.hello),
      path('books/', views.booklist),
      path('menu/', include('menu_app.urls')),
-     
+     path('klienci/', include('customers_app.urls')),
+     path('zamowienia/', include('orders_app.urls')),
 ]

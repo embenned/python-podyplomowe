@@ -20,5 +20,11 @@
     "phone": "555-123-456",
     "discount_percent": 20,
     "loyalty_points": 120
+  },
+  {
+    "type": "Customer",
+    "id": 4,
+    "name": "Grzegorz",
+    "phone": "506230450"
   }
 ]
